@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Quiz</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+</head>
+
+<body>
+    
+    <!--Home Screen -->
+
+    <div class="container mt-5" id="homePage">
+        <div class="row justify-content-center">
+            <div class="col-10 col-lg-8 text-center">
+
+                <h1>Basketball Trivia</h1> <br>
+                <p>Try to answer the following questions about NBA history! <br>
+                <p>Press Start to begin!</p>
+
+                <button type="button" id="startButton" class="btn btn-info btn-lg">START</button>
+            </div>
+        </div>
+    
+        <!-- Questions and answers section -->
+
+        <div class="container mt-5 d-none" id="questionsAnswers">
+            <div class="row justify-content-center mt-5 pt-3 pb-3">
+                <div class="col-10 col-lg-8" id="Questions">
+
+                    <h3 id="questions" class="mb-4">QUESTION</h3>
+
+                    <ul id="answers" class="list-unstyled">
+                        <li class="answerChoice"> </li>
+                        <li class="answerChoice"> </li>
+                        <li class="answerChoice"> </li>
+                        <li class="answerChoice"> </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <!-- Area to keep track of timer and score -->
+
+        <div>
+            <h3 id="timer">Time:</h3>
+        </div>
+
+        <div>
+            <h3 id="score"> Score:</h3>
+        </div>
+
+        
+
+
+<script src="java.js"></script>
+
+</body>
+</html>
